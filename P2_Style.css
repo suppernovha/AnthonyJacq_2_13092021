@@ -6,13 +6,64 @@
     src: url('polices/Raleway-VariableFont_wght.ttf');
 }
 
+a
+{  
+    color: black;
+    text-decoration: none;
+}
+
+#titre_principal h1
+{  
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#titre_principal h2
+{  
+    font-size: 15.5px;
+    font-weight: light;
+}
+
+header h3
+{  
+    font-size: 15.5px;
+    font-weight: light;
+}
+section h1
+{  
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+section h2
+{  
+    font-size: 15px;
+    font-weight: bold;
+}
+
+section h3
+{  
+    font-size: 15px;
+    font-weight: light;
+}
+
+footer h1
+{  
+    font-size: 18px;
+    font-weight: light;
+}
+ul
+{  
+    font-size: 16px;
+    list-style-type: none;
+}
+
 /* Eléments principaux de la page */
 
 body
 {  
     font-family: raleway;
     font-weight: normal;
-    font-size: small;
 }
 
 #bloc_page
@@ -34,17 +85,20 @@ header
 
 #recherche
 {  
-
+    font-size: 15.5px;
+    font-weight: bold;
 }
 
 #filtres
 {  
-
+    font-size: 15.5px;
+    font-weight: bold;
 }
 
 nav
 {  
-
+    font-size: 15.5px;
+    font-weight: light;
 }
 
 #sinscrire
@@ -55,7 +109,14 @@ nav
 
 header h1
 {  
-    
+    font-size: large;
+    font-weight: bolder;
+}
+
+header h2
+{  
+    font-size: small;
+    font-weight: lighter;
 }
 /* section 1 Hébergements */
 
