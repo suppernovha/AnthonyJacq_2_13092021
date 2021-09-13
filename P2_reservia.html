@@ -15,32 +15,39 @@
 
         <header>
             <div id="titre_principal">
-                <img/>
-                <h1></h1>
-                <h2></h2>
+                <img src="images/logo/Reservia.svg" alt="logo_du_site" class="logo_reservia"/>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h2>En plein centre ville ou en pleine nature</h2>
             </div>
 
             <div id="recherche">
-                <form></form>
+                <form method="post" action="">
+                    <p>
+                        <img src="images/icones/ico_map.svg" alt="icone recherche" class="ico_recherche"/>
+                        <input type="search" name="search" autofocus id="recherche"/>
+                        <label for="rechercher">Rechercher</label>
+                    </p>
+
+                </form>
             </div>
 
             <div id="filtres">
-                <h1></h1>
+                <h1>Filtres</h1>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href=""><img src="images/icones/ico_economique.svg" alt="icone" class="ico_economique"/>Économique</a></li>
+                    <li><a href=""><img src="images/icones/ico_familial.svg" alt="icone" class="ico_familial"/>Familial</a></li>
+                    <li><a href=""><img src="images/icones/ico_romantique.svg" alt="icone" class="ico_romantique"/>Romantique</a></li>
+                    <li><a href=""><img src="images/icones/ico_animaux.svg" alt="icone" class="ico_animaux"/>Animaux autorisés</a></li>
                 </ul>
             </div>
 
-            <h3></h3>
+            <h3><img src="images/icones/ico_info.svg" alt="icone info"/>Plus de 500 logements sont dipsonibles dans cette ville</h3>
 
             <nav>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href="">Hébergements</a></li>
+                    <li><a href="">Activités</a></li>
+                    <li><a href="">S'inscrire</a></li>
                 </ul>
             </nav>
         </header>
@@ -49,16 +56,28 @@
 
         <section>
             <div id="hebergements">
-                <h1></h1>
-                <div id="bloc_vignettes_hebergements">
-                    <div id="vignette_hebergement"></div>
-                    <div id="vignette_hebergement"></div>
-                    <div id="vignette_hebergement"></div>
-                    <div id="vignette_hebergement"></div>
-                    <div id="vignette_hebergement"></div>
-                    <div id="vignette_hebergement"></div>
-                </div>
-                <h2></h2> 
+                <h1>Hébergements à Marseille</h1>
+                    <div id="bloc_vignettes_hebergements">
+                        <div id="vignette_hebergement">
+                            <a href=""><h1>Auberge la Cannebière</h1><h2>Nuit à partir de <strong>25€</strong></h2><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/></a>
+                        </div>
+                        <div id="vignette_hebergement">
+                            <a href=""><h1>Hôtel du port</h1><h2>Nuit à partir de 52<strong>€</strong></h2><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/></a>
+                        </div>
+                        <div id="vignette_hebergement">
+                            <a href=""><h1>Hôtel Les mouettes</h1><h2>Nuit à partir de 76<strong>€</strong></h2><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/></a>
+                        </div>
+                        <div id="vignette_hebergement">
+                            <a href=""><h1>Hôtel de la mer</h1><h2>Nuit à partir de 46<strong>€</strong></h2><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/></a>
+                        </div>
+                        <div id="vignette_hebergement">
+                            <a href=""><h1>Auberge Le Panier</h1><h2>Nuit à partir de <strong>23€</strong></h2><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/></a>
+                        </div>
+                        <div id="vignette_hebergement">
+                            <a href=""><h1>Hôtel chez Amina</h1><h2>Nuit à partir de 96<strong>€</strong></h2><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/></a>
+                        </div>
+                    </div>
+                <h2><a href="">Afficher plus</a></h2> 
             </div>
         </section>
 
@@ -66,12 +85,19 @@
 
         <section>
             <div id="populaires">
-                <h1></h1>
-                <div id="bloc_vignettes_populaires">
-                    <div id="vignette_populaire"></div>
-                    <div id="vignette_populaire"></div>
-                    <div id="vignette_populaire"></div>
-                </div>
+                <h1>Les plus populaires<img src="images/icones/ico_increase.svg"/></h1>
+                    <div id="bloc_vignettes_populaires">
+                        <div id="vignette_populaire">
+                            <a href=""><h1>Hôtel Le soleil du matin</h1><h2>Nuit à partir de 128<strong>€</strong></h2><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/></a> 
+                        </div>
+                        <div id="vignette_populaire">
+                            <a href=""><h1>Au coeur de l'eau Chambres d'hôtes</h1><h2>Nuit à partir de 71<strong>€</strong></h2><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/></a>
+                        </div>
+                        <div id="vignette_populaire">
+                            <a href=""><h1>Hôtel Tout Bleu et Blanc</h1><h2>Nuit à partir de 68<strong>€</strong></h2><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/><img src="images/icones/ico_star.svg"/></a>
+                        </div>
+                    
+                    </div>
             </div>
         </section>
 
@@ -79,10 +105,26 @@
 
         <section>
             <div id="activites">
-                <h1></h1>
+                <h1>Activités à Marseille</h1>
                 <div id="bloc_vignettes_activites">
-                <div id="vignette_activite"></div>
-                <!--taille des vignettes...?-->
+                    <div id="vignette_activite">
+                        <a href=""><h1>Vieux Port</h1></a>
+                    </div>
+                    <div id="vignette_activite">
+                        <a href=""><h1>Fort de Pomègues</h1></a>
+                    </div>
+                    <div id="vignette_activite">
+                        <a href=""><h1>Îles du Frioul</h1></a>
+                    </div>
+                    <div id="vignette_activite">
+                        <a href=""><h1>Parc National des Calanques</h1></a>
+                    </div>
+                    <div id="vignette_activite">
+                        <a href=""><h1>Notre-Dame-de-la-Garde</h1></a>
+                    </div>
+                    <div id="vignette_activite">
+                        <a href=""><h1>Parc Longchamp</h1></a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -91,22 +133,25 @@
 
         <footer>
             <div id="a_propos">
+                <h1>A propos</h1>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href="">Fonctionnement du site</a></li>
+                    <li><a href="">Conditions générales de vente</a></li>
+                    <li><a href="">Données et confidentialité</a></li>
                 </ul>
             </div>
             <div id="nos_hebergements">
+                <h1>Nos hébergements</h1>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li><a href="">Charte qualité</a></li>
+                    <li><a href="">Soumettre votre hôtel</a></li>
                 </ul>
             </div>
             <div id="assistance">
+                <h1>Assistance</h1>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li><a href="">Centre d'aide</a></li>
+                    <li><a href="">Nous contacter</a></li>
                 </ul>
             </div>
         </footer>
