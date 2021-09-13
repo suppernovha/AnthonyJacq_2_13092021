@@ -1,5 +1,126 @@
-.ico_economique
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('polices/Raleway-VariableFont_wght.ttf');
+}
+
+/* Eléments principaux de la page */
+
+body
 {  
-    width: 10px;
-    height: 10px;
+    font-family: raleway;
+    font-weight: normal;
+    font-size: small;
+}
+
+#bloc_page
+{  
+
+}
+
+/* header */
+
+header
+{  
+
+}
+
+#titre_principal
+{  
+
+}
+
+#recherche
+{  
+
+}
+
+#filtres
+{  
+
+}
+
+nav
+{  
+
+}
+
+#sinscrire
+{  
+    color: blue;
+    font-weight: bold;
+}
+
+header h1
+{  
+    
+}
+/* section 1 Hébergements */
+
+#hebergements
+{  
+
+}
+
+#bloc_vignettes_hebergements
+{  
+
+}
+
+#vignette_hebergement
+{  
+
+}
+
+/* section 2 Les plus populaires */
+
+#populaires
+{  
+
+}
+
+#bloc_vignettes_populaires
+{  
+
+}
+
+#vignette_populaire
+{  
+
+}
+
+/* section 3 Activités */
+
+#activites
+{  
+
+}
+
+#bloc_vignettes_activites
+{  
+
+}
+
+#vignette_activites
+{  
+
+}
+
+/* Footer */
+
+#a_propos
+{  
+
+}
+
+#nos_hebergements
+{  
+
+}
+
+#assistance
+{  
+
 }
