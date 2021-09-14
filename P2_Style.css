@@ -12,23 +12,6 @@ a
     text-decoration: none;
 }
 
-#titre_principal h1
-{  
-    font-size: 22px;
-    font-weight: bolder;
-}
-
-#titre_principal h2
-{  
-    font-size: 15.5px;
-    font-weight: light;
-}
-
-header h3
-{  
-    font-size: 15.5px;
-    font-weight: light;
-}
 section h1
 {  
     font-size: 22px;
@@ -83,16 +66,88 @@ header
 
 }
 
-#recherche
+
+#titre_principal h1
+{  
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#titre_principal h2
 {  
     font-size: 15.5px;
+    font-weight: light;
+}
+
+
+#recherche
+{   
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-size: 15.5px;
     font-weight: bold;
+    border: 1px #f2f2f2 solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #f2f2f2;
+}
+
+#logomap
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width:50px;
+    background-color: #f2f2f2;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#cellulerecherche
+{   
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 50px;
+    width: 230px;
+    color: black;
+    font-weight: bold;
+}
+
+.champ
+{   
+    width: 235px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    padding-left: 15px;
+    border: none;
+    font-size: 16px;
+}
+
+#boutonrechercher
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    background-color: #0065FC;
+    border-radius: 0px 20px 20px 0px;
+
 }
 
 #filtres
 {  
     font-size: 15.5px;
     font-weight: bold;
+}
+
+header h3
+{  
+    font-size: 15.5px;
+    font-weight: light;
 }
 
 nav
@@ -103,21 +158,10 @@ nav
 
 #sinscrire
 {  
-    color: blue;
+    color: #0065FC;
     font-weight: bold;
 }
 
-header h1
-{  
-    font-size: large;
-    font-weight: bolder;
-}
-
-header h2
-{  
-    font-size: small;
-    font-weight: lighter;
-}
 /* section 1 Hébergements */
 
 #hebergements
