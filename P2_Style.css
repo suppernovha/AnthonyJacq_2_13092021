@@ -54,20 +54,21 @@ body
 #bloc_page
 {  
     margin: auto;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 #sections_hebergements_et_populaires
 {  
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 /* header */
 
 header
 {  
-
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 header h3
@@ -278,7 +279,7 @@ nav ul
     padding: 40px;
     margin-right: 60px;
     max-width: 1200px;
-    height: 580px;
+    height: 650px;
     
 }
 
@@ -288,6 +289,7 @@ nav ul
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
+    overflow: scroll;
 }
 
 #vignette_hebergement1
@@ -326,7 +328,7 @@ nav ul
     border: 8px white solid;
     border-radius: 30px;
     min-width: 270px;
-    height: 180px;
+    height: 220px;
     background-size: 80%;
     margin-right: 20px;
     margin-bottom: 30px;
@@ -342,7 +344,7 @@ nav ul
     border-radius: 0px 0px 20px 20px;
     padding-left: 15px;
     padding-bottom: 10px;
-    height: 55px;
+    height: 70px;
 }
 
 /* section 2 Les plus populaires */
@@ -354,7 +356,7 @@ nav ul
     flex: 2;
     padding: 40px;
     max-width: 1200px;
-    height: 580px;
+    height: 650px;
 
 }
 
@@ -399,7 +401,7 @@ nav ul
     border: 8px white solid;
     border-radius: 30px;
     width: 380px;
-    height: 130px;
+    height: 150px;
     background-size: 50%;
     margin-bottom: 30px;
 }
@@ -410,7 +412,7 @@ nav ul
     right: 0;
     background-color: white;
     width: 230px;
-    height: 125px;
+    height: 145px;
     border-radius: 0px 20px 20px 0px;
     padding-left: 15px;
     padding-bottom: 10px;
@@ -419,90 +421,130 @@ nav ul
 /* section 3 Activités */
 
 #activites
-{   
-    display: flex;
-    background-color: aqua;
+{  
+
     height: 580px;
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #bloc_vignettes_activites
 {  
-
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 520px;
 }
 
+#bloc_vignettes_activites_colonne1
+{  
+    height: 520px;
+}
+
+#bloc_vignettes_activites_colonne2
+{  
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#bloc_vignettes_activites_colonne3
+{  
+    height: 520px;
+}
+
+#bloc_vignettes_activites_colonne4
+{  
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#vignette_activite1, #vignette_activite2, #vignette_activite3, #vignette_activite4, #vignette_activite5, #vignette_activite6
+{ 
+    position: relative;
+    box-shadow: 0px 3px 10px#f2f2f2;
+    border-radius: 30px;
+    width: 360px;
+    height: 130px;
+    background-size: 50%;
+    background: no-repeat center;
+    
+}
+
+.description_activites
+{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 365px;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
 #vignette_activite1
 {  
-    position: relative;
-    box-shadow: 10px 10px 0px#f2f2f2;
-    border-radius: 30px;
-    width: 380px;
-    height: 130px;
+    min-height: 520px;
     background-image: url("images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-    background-size: 50%;
-    margin-bottom: 30px;
+    background-position-y: top;
+    
 }
 
 #vignette_activite2
 {  
-    position: relative;
-    box-shadow: 10px 10px 0px#f2f2f2;
-    border-radius: 30px;
-    width: 380px;
-    height: 130px;
+    min-height: 290px;
     background-image: url("images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-    background-size: 50%;
-    margin-bottom: 30px;
-}
+    background-size: 105%;
+}   
 
 #vignette_activite3
 {  
-    position: relative;
-    box-shadow: 10px 10px 0px#f2f2f2;
-    border-radius: 30px;
-    width: 380px;
-    height: 130px;
+    min-height: 190px;
     background-image: url("images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-    background-size: 50%;
-    margin-bottom: 30px;
+  
 }
 
 #vignette_activite4
 {  
-    position: relative;
-    box-shadow: 10px 10px 0px#f2f2f2;
-    border-radius: 30px;
-    width: 380px;
-    height: 130px;
+    height: 520px;
     background-image: url("images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-    background-size: 50%;
-    margin-bottom: 30px;
+    background-position-y: center;
+    background-size: 220%;
+    background-position-y: top;
 }
 
 #vignette_activite5
 {  
-    position: relative;
-    box-shadow: 10px 10px 0px#f2f2f2;
-    border-radius: 30px;
-    width: 380px;
-    height: 130px;
+    height: 190px;
     background-image: url("images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    background-size: 50%;
-    margin-bottom: 30px;
+    
 }
 
 #vignette_activite6
 {  
-    position: relative;
-    box-shadow: 10px 10px 0px#f2f2f2;
-    border-radius: 30px;
-    width: 380px;
-    height: 130px;
+    height: 290px;
     background-image: url("images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-    background-size: 50%;
-    margin-bottom: 30px;
 }
 /* Footer */
+
+footer
+{  
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 50px;
+    margin-top: 50px;
+
+}
+
+footer ul
+{  
+    padding-left: 0px;
+}
 
 #a_propos
 {  
