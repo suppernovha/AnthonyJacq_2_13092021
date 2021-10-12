@@ -16,26 +16,13 @@ a
 section h1
 {  
     font-size: 22px;
-    font-weight: bolder;
 }
 
 section h2
 {  
     font-size: 15px;
-    font-weight: bold;
 }
 
-section h3
-{  
-    font-size: 15px;
-    font-weight: light;
-}
-
-footer h1
-{  
-    font-size: 18px;
-    font-weight: light;
-}
 ul
 {  
     font-size: 16px;
@@ -47,12 +34,16 @@ ul
     color: #0065FC;
 }
 
+.greystar
+{ 
+    color: #f2f2f2;
+}
+
 /* Eléments principaux de la page */
 
 body
 {  
     font-family: raleway;
-    font-weight: normal;
 }
 
 #bloc_page
@@ -67,7 +58,13 @@ body
     margin-left: 50px;
     margin-right: 50px;
 }
+
 /* header */
+
+.logo_reservia
+{  
+    margin-bottom: 14px;
+}
 
 header
 {  
@@ -77,9 +74,7 @@ header
 
 header p
 {  
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
+    font-size: 17px;
 }
 
 header p i
@@ -93,36 +88,28 @@ header p i
     padding-top: 2px;
 }
 
-#titre_principal
-{  
-
-}
-
-
 #titre_principal h1
 {  
     font-size: 22px;
-    font-weight: bold;
+    margin-bottom: 6px;
 }
 
-#titre_principal h2
+#titre_principal p
 {  
-    font-size: 15.5px;
-    font-weight: light;
+    margin-top: 12px;
+    margin-bottom: 20px;  
 }
-
 
 #recherche
 {   
     display: flex;
     justify-content: space-between;
-    width: 400px;
-    font-size: 15.5px;
-    font-weight: bold;
+    width: 420px;
+    font-size: 15.5px; 
     border: 1px #f2f2f2 solid;
     border-radius: 20px 20px 20px 20px;
     background-color: #f2f2f2;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 #logomap
@@ -131,31 +118,26 @@ header p i
     justify-content: center;
     align-items: center;
     height: 50px;
-    width:50px;
+    min-width: 50px;
     background-color: #f2f2f2;
     border-radius: 20px 0px 0px 20px;
 }
 
-#cellulerecherche
-{   
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height: 50px;
-    width: 230px;
-    color: black;
-    font-weight: bold;
-}
-
 .champ
 {   
-    width: 235px;
+    width: 150%;
+    min-width: 250px;
     height: 50px;
-    color: black;
     font-weight: bold;
+    color: black;
     padding-left: 15px;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
+}
+
+.champ:focus
+{   
+    outline: none;
 }
 
 #boutonrechercher
@@ -163,12 +145,14 @@ header p i
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    font-size: 18px;
+    width: 140px;
     color: white;
     font-weight: bold;
     background-color: #0065FC;
     border-radius: 0px 20px 20px 0px;
-
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #filtres
@@ -176,21 +160,19 @@ header p i
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 8Opx;
 }
 
 #filtres h1
 {  
     font-size: 18px;
-    font-weight: bold;
     margin-right: 30px;
 }
 
 #filtre_economique, #filtre_familial, #filtre_romantique, #filtre_animaux
 {  
     display: flex;
-    justify-content: space-between;
     font-size: 18px;
     font-weight: bold;
     border: 3px #f2f2f2 solid;
@@ -198,6 +180,26 @@ header p i
     border-radius: 30px 30px 30px 30px;
     margin-right: 20px;
     height: 50px;
+}
+
+#filtre_economique
+{ 
+    min-width: 190px;
+}
+
+#filtre_familial
+{ 
+    min-width: 150px;
+}
+
+#filtre_romantique
+{ 
+    min-width: 190px;
+}
+
+#filtre_animaux
+{ 
+    min-width: 245px;
 }
 
 #filtre_economique a, #filtre_familial a, #filtre_romantique a, #filtre_animaux a
@@ -210,26 +212,28 @@ header p i
 
 #filtre_economique:hover, #filtre_familial:hover, #filtre_romantique:hover, #filtre_animaux:hover
 { 
-    border: 3px #0065FC solid;
+    background-color: #DEEBFF;
+    border: 3px #DEEBFF solid;
     border-left: none;
 }
 
 .filtre
 {  
-    padding-left: 20px;
+    padding-left: 10px;
     padding-right: 20px; 
 }
 
 #filtres i
 {  
- 
+    position: relative;
+    bottom: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #DEEBFF;
     border-radius: 30px 30px 30px 30px;
-    height: 58px;
-    width: 58px;
+    height: 50px;
+    width: 50px;
     margin-left: 0px;
 }
 
@@ -237,23 +241,11 @@ header p i
 {  
     height: 50px;
 }
-header h3
+
+#infos
 {  
-    font-size: 16px;
-    font-weight: light;
+    margin-top: 30px;
     margin-bottom: 40px;
-}
-
-h3 i
-{  
-    border: 1px #f2f2f2 solid;
-    border-radius: 30px;
-    padding: 5px 10px 5px 10px;
-    margin-right: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
 }
 
 nav
@@ -262,19 +254,17 @@ nav
     justify-content: space-between;
     align-items: center;
     font-size: 15.5px;
-    font-weight: light;
     position: absolute;
     top: 1px;
-    right: 80px;
-
-
+    right: 200px;
 }
 
 nav a
 {  
-    margin-left: 80px;
+    margin-left: 50px;
     padding: 15px;
 }
+
 nav ul a:hover
 {  
     color: #0065FC;
@@ -290,6 +280,14 @@ nav ul
 {  
     color: #0065FC;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15.5px;
+    position: absolute;
+    top: 1px;
+    right: 60px;
+    padding-top: 17px;
 }
 
 /* section 1 Hébergements */
@@ -298,22 +296,17 @@ nav ul
 {  
     background: #f2f2f2;
     border-radius: 25px;
-    flex: 3;
     padding: 40px;
-    margin-right: 60px;
-    max-width: 1200px;
-    height: 765px;
+    width: 65%;  
+} 
     
-}
-
 #bloc_vignettes_hebergements
 {  
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     margin-top: 30px;
-    height: 600px;
-    overflow: scroll;
 }
 
 #vignette_hebergement1
@@ -352,71 +345,75 @@ nav ul
     position: relative;
     border: 6px white solid;
     border-radius: 30px;
-    width: 340px;
-    min-width: 270px;
-    height: 250px;
+    min-width: 275px;
+    width: 100%;
+    height: 220px;
     background-size: 80%;
     margin-right: 20px;
     margin-bottom: 30px;
-}
+}   
 
 .description_hebergement
 {
     position: absolute;
     bottom: 0;
     background-color: white;
-    min-width: 330px;
     border-radius: 0px 0px 20px 20px;
     padding-left: 15px;
-    padding-bottom: 10px;
-    height: 70px;
+    padding-bottom: 5px;
+    height: 40%;
+    width:100%;
 }
 
-.description_hebergement h2, p
+.description_hebergement h2
 { 
-    margin-bottom: 0;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 8px;
 }
 
 .description_hebergement p
 { 
     font-size: 15px;
-    margin-top: 0;
+    margin-bottom: 3px;
+    margin-top: 3px;
 }
 
-.greystar
-{ 
-    color: #f2f2f2;
+#stars2
+{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: px;
 }
 
 /* section 2 Les plus populaires */
 
 #populaires
 {  
-    background: #f2f2f2;
     border-radius: 25px;
-    flex: 2;
     padding: 40px;
-    max-width: 1200px;
-    height: 730px;
-
+    width: 32%;
+    background: #f2f2f2;
 }
 
-.bluestar
-{ 
- color: #0065FC;
+#titre_populaires
+{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titre_populaires i
+{   
+    font-size: 23px;
 }
 
 #bloc_vignettes_populaires
 {  
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 30px;
-}
-
-#titre_populaires
-{ 
-    display: flex;
-    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
 }
 
 #vignette_populaire1
@@ -431,20 +428,20 @@ nav ul
 
 #vignette_populaire3
 {
-    background-image: url("images/populaires/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-
+    background-image: url("images/populaires/febrian-zakaria-sjvU0THccQA-unsplash.jpg"); 
 }
-
 
 #vignette_populaire1, #vignette_populaire2, #vignette_populaire3
 {  
     position: relative;
     border: 6px white solid;
     border-radius: 30px;
-    width: 380px;
-    height: 170px;
-    background-size: 50%;
+    width: 100%;
+    height: 150px;
+    background-size: 70%;
     margin-bottom: 30px;
+    background-position: left;
+    background-repeat: no-repeat;
 }
 
 .description_populaire
@@ -452,8 +449,8 @@ nav ul
     position: absolute;
     right: 0;
     background-color: white;
-    width: 230px;
-    height: 165px;
+    width: 60%;
+    height: 100%;
     border-radius: 0px 20px 20px 0px;
     padding-left: 15px;
     padding-bottom: 10px;
@@ -464,12 +461,18 @@ nav ul
     font-size: 15px;
 }
 
+.description_populaire h2
+{
+    font-size: 17px;
+}
+
 #stars
 {
     position: absolute;
     bottom: 0;
     margin-bottom: 10px;
 }
+
 /* section 3 Activités */
 
 #activites
@@ -496,12 +499,14 @@ nav ul
 
 #bloc_vignettes_activites_colonne1
 {  
+    width: 23%;
     height: 520px;
 }
 
 #bloc_vignettes_activites_colonne2
 {  
     height: 520px;
+    width: 23%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -510,11 +515,13 @@ nav ul
 #bloc_vignettes_activites_colonne3
 {  
     height: 520px;
+    width: 23%;
 }
 
 #bloc_vignettes_activites_colonne4
 {  
     height: 520px;
+    width: 23%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -526,12 +533,11 @@ nav ul
     box-shadow: 5px 5px 7px#f2f2f2,
                 -5px 5px 7px #f2f2f2;
     border-radius: 30px;
-    width: 360px;
+    width: 100%;
     height: 130px;
     background-size: 50%;
     background: no-repeat center;
     margin-right: 30px;
-    
 }
 
 .description_activites
@@ -539,18 +545,18 @@ nav ul
     position: absolute;
     bottom: 0;
     background-color: white;
-    width: 360px;
+    width: 100%;
     height: 50px;
     border-radius: 0px 0px 28px 28px;
     padding-left: 15px;
     padding-bottom: 10px;
 }
+
 #vignette_activite1
 {  
     min-height: 520px;
     background-image: url("images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-position-y: top;
-    
 }
 
 #vignette_activite2
@@ -564,23 +570,20 @@ nav ul
 {  
     min-height: 190px;
     background-image: url("images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-  
 }
 
 #vignette_activite4
 {  
     height: 520px;
     background-image: url("images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: 300%;
     background-position-y: center;
-    background-size: 220%;
-    background-position-y: top;
 }
 
 #vignette_activite5
 {  
     height: 190px;
     background-image: url("images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    
 }
 
 #vignette_activite6
@@ -588,6 +591,7 @@ nav ul
     height: 290px;
     background-image: url("images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 }
+
 /* Footer */
 
 footer
@@ -597,7 +601,11 @@ footer
     background-color: #f2f2f2;
     padding: 50px;
     margin-top: 50px;
+}
 
+footer h1
+{  
+    font-size: 18px;    
 }
 
 footer ul
@@ -609,17 +617,271 @@ footer li
 {  
     margin-bottom: 10px;
 }
+
 #a_propos
 {  
-    margin-right: 400px;
+    width: 35%;  
 }
 
 #nos_hebergements
 {  
-    margin-right: 400px;
+    width: 35%;
 }
 
 #assistance
 {  
-
+    width: 30%;
 }
+
+/* Media Queries */
+
+@media all and (min-width: 1765px) 
+{  
+   h1
+    {
+        color: black;
+    
+    }
+
+    #vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
+{  
+    min-width: 310px;
+    width: 100%;
+    height: 260px;
+} 
+
+    #vignette_populaire1, #vignette_populaire2, #vignette_populaire3
+{  
+    width: 100%;
+    height: 200px;
+}
+
+.logo_reservia
+{  
+    width: 7%;
+}
+
+header p
+{  
+    font-size: 20px;
+}
+
+header p i
+{
+    border: 2px #f2f2f2 solid;
+    border-radius: 30px 30px 30px 30px;
+    margin-right: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+#titre_principal h1
+{  
+    font-size: 28px;
+}
+
+#recherche
+{   
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    font-size: 15.5px; 
+    border: 1px #f2f2f2 solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #f2f2f2;
+    margin-top: 15px;
+}
+
+#logomap
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    min-width: 60px;
+    background-color: #f2f2f2;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.champ
+{   
+    width: 100%;
+    min-width: 310px;
+    height: 70px;
+    font-size: 22px;
+}
+
+#boutonrechercher
+{   
+    font-size: 22px;
+    width: 220px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#filtres
+{  
+    margin-bottom: 40px;
+}
+
+#filtres h1
+{  
+    font-size: 22px;
+}
+
+#filtre_economique, #filtre_familial, #filtre_romantique, #filtre_animaux
+{  
+    font-size: 24px;
+    height: 60px;
+}
+
+#filtres i
+{  
+    position: relative;
+    bottom: -2px;
+    height: 60px;
+    width: 60px;
+}
+
+#filtres a
+{  
+    height: 60px;
+}
+
+nav
+{  
+    position: absolute;
+    top: 1px;
+    right: 200px;
+    font-size: 20px;
+}
+
+nav a
+{  
+    font-size: 20px;
+}
+
+#sinscrire
+{  
+    font-size: 20px;
+}
+
+section h1 
+{  
+    font-size: 28px;
+}
+
+.description_hebergement h2
+{ 
+    font-size: 21px;
+}
+
+.description_hebergement p
+{ 
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.description_populaire
+{ 
+    padding-right: 40px;
+}
+
+.description_populaire h2
+{ 
+    font-size: 21px;
+}
+
+.description_populaire p
+{ 
+    font-size: 19px;
+}
+#stars, #stars2
+{
+    font-size: 18px;
+    
+}
+}
+
+@media all and (min-width: 1630px) and (max-width: 1765px)
+{  
+   h1
+    {
+        color: yellow;
+    
+    }
+
+    #vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
+{  
+    position: relative;
+    border: 6px white solid;
+    border-radius: 30px;
+    min-width: 280px;
+    width: 100%;
+    height: 260px;
+    background-size: 80%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+} 
+}
+
+
+@media all and (min-width: 1280px) and (max-width: 1630px)
+{  
+   h1
+    {
+        color: cornflowerblue;
+    }
+
+    #vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
+    {  
+        position: relative;
+        border: 6px white solid;
+        border-radius: 30px;
+        min-width: 230px;
+        width: 100%;
+        height: 180px;
+        background-size: 80%;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    } 
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{  
+    h1
+     {
+         color: green;
+     }
+
+     #vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
+     {  
+         position: relative;
+         border: 6px white solid;
+         border-radius: 30px;
+         min-width: 225px;
+         width: 100%;
+         height: 190px;
+         background-size: 80%;
+         margin-right: 20px;
+         margin-bottom: 30px;
+     } 
+ }
+
+ @media all and (min-width: 600px) and (max-width: 1024px)
+{
+    h1
+     {
+         color: orange;
+     }
+ }
+ 
+ @media all and (max-width: 600px)
+{  
+    h1
+     {
+         color: pink;
+     }
+ }
