@@ -383,7 +383,7 @@ nav ul
 {
     position: absolute;
     bottom: 0;
-    margin-bottom: px;
+    margin-bottom: 0px;
 }
 
 /* section 2 Les plus populaires */
@@ -546,7 +546,7 @@ nav ul
     bottom: 0;
     background-color: white;
     width: 100%;
-    height: 50px;
+    height: 60px;
     border-radius: 0px 0px 28px 28px;
     padding-left: 15px;
     padding-bottom: 10px;
@@ -658,7 +658,8 @@ footer li
 
 .logo_reservia
 {  
-    width: 7%;
+    width: 126px;
+    height: 58px;
 }
 
 header p
@@ -773,6 +774,11 @@ section h1
     font-size: 28px;
 }
 
+#vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
+{  
+    height: 260px;
+}
+
 .description_hebergement h2
 { 
     font-size: 21px;
@@ -781,7 +787,17 @@ section h1
 .description_hebergement p
 { 
     font-size: 19px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.afficherplus
+{  
+    font-size: 22px;
+}
+
+#titre_populaires i
+{ 
+    font-size: 28px;
 }
 
 .description_populaire
@@ -801,7 +817,65 @@ section h1
 #stars, #stars2
 {
     font-size: 18px;
-    
+}
+
+#stars2
+{
+    margin-bottom: 10px;
+}
+
+.description_activites h2
+{ 
+    font-size: 21px;
+}
+
+#vignette_activite1
+{  
+    min-height: 590px;
+    background-size: 300%;
+    background-position-y: center;
+}
+
+#vignette_activite2
+{  
+    min-height: 320px;
+    margin-bottom: 70px;
+}   
+
+#vignette_activite3
+{  
+    min-height: 200px;
+}
+
+#vignette_activite4
+{  
+    min-height: 590px;
+}
+
+#vignette_activite5
+{  
+    min-height: 320px;
+    margin-bottom: 70px;
+}   
+
+#vignette_activite6
+{  
+    height: 200px; 
+}
+
+footer
+{  
+    margin-top: 150px;
+}
+
+footer h1
+{  
+   font-size: 22px;
+}
+
+footer li
+{  
+    font-size: 22px;
 }
 }
 
@@ -809,22 +883,246 @@ section h1
 {  
    h1
     {
-        color: yellow;
+        color: ;
     
     }
 
     #vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
 {  
-    position: relative;
-    border: 6px white solid;
-    border-radius: 30px;
     min-width: 280px;
     width: 100%;
     height: 260px;
     background-size: 80%;
-    margin-right: 20px;
-    margin-bottom: 30px;
 } 
+
+#vignette_populaire1, #vignette_populaire2, #vignette_populaire3
+{  
+    width: 100%;
+    height: 200px;
+}
+
+.logo_reservia
+{  
+    width: 126px;
+    height: 58px;
+}
+
+header p
+{  
+    font-size: 20px;
+}
+
+header p i
+{
+    border: 2px #f2f2f2 solid;
+    border-radius: 30px 30px 30px 30px;
+    margin-right: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+#titre_principal h1
+{  
+    font-size: 28px;
+}
+
+#recherche
+{   
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    font-size: 15.5px; 
+    border: 1px #f2f2f2 solid;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #f2f2f2;
+    margin-top: 15px;
+}
+
+#logomap
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    min-width: 60px;
+    background-color: #f2f2f2;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.champ
+{   
+    width: 100%;
+    min-width: 310px;
+    height: 70px;
+    font-size: 22px;
+}
+
+#boutonrechercher
+{   
+    font-size: 22px;
+    width: 220px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#filtres
+{  
+    margin-bottom: 40px;
+}
+
+#filtres h1
+{  
+    font-size: 22px;
+}
+
+#filtre_economique, #filtre_familial, #filtre_romantique, #filtre_animaux
+{  
+    font-size: 24px;
+    height: 60px;
+}
+
+#filtres i
+{  
+    position: relative;
+    bottom: -2px;
+    height: 60px;
+    width: 60px;
+}
+
+#filtres a
+{  
+    height: 60px;
+}
+
+nav
+{  
+    position: absolute;
+    top: 1px;
+    right: 200px;
+    font-size: 20px;
+}
+
+nav a
+{  
+    font-size: 20px;
+}
+
+#sinscrire
+{  
+    font-size: 20px;
+}
+
+section h1 
+{  
+    font-size: 28px;
+}
+
+#vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
+{  
+    height: 260px;
+}
+
+.description_hebergement h2
+{ 
+    font-size: 21px;
+}
+
+.description_hebergement p
+{ 
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+.afficherplus
+{  
+    font-size: 22px;
+}
+
+#titre_populaires i
+{ 
+    font-size: 28px;
+}
+
+.description_populaire
+{ 
+    padding-right: 40px;
+}
+
+.description_populaire h2
+{ 
+    font-size: 21px;
+}
+
+.description_populaire p
+{ 
+    font-size: 19px;
+}
+
+#stars, #stars2
+{
+    font-size: 18px;
+}
+
+#stars2
+{
+    margin-bottom: 10px;
+}
+
+.description_activites h2
+{ 
+    font-size: 21px;
+}
+
+#vignette_activite1
+{  
+    min-height: 590px;
+    background-size: 300%;
+    background-position-y: center;
+}
+
+#vignette_activite2
+{  
+    min-height: 320px;
+    margin-bottom: 70px;
+}   
+
+#vignette_activite3
+{  
+    min-height: 200px;
+}
+
+#vignette_activite4
+{  
+    min-height: 590px;
+}
+
+#vignette_activite5
+{  
+    min-height: 320px;
+    margin-bottom: 70px;
+}   
+
+#vignette_activite6
+{  
+    height: 200px; 
+}
+
+footer
+{  
+    margin-top: 150px;
+}
+
+footer h1
+{  
+   font-size: 22px;
+}
+
+footer li
+{  
+    font-size: 22px;
+}
 }
 
 
@@ -832,21 +1130,176 @@ section h1
 {  
    h1
     {
-        color: cornflowerblue;
+        color: ;
     }
 
     #vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
     {  
-        position: relative;
-        border: 6px white solid;
-        border-radius: 30px;
         min-width: 230px;
         width: 100%;
-        height: 180px;
-        background-size: 80%;
-        margin-right: 20px;
-        margin-bottom: 30px;
+        height: 200px;
     } 
+
+    #logomap
+    {   
+        height: 50px;
+        min-width: 50px;
+        font-size: 13px;
+    }
+    
+    .champ
+    {   
+        width: 130%;
+        min-width: 190px;
+        height: 50px;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    .info
+    {   
+        font-size: 12px;
+        padding: 5px 9px 5px 9px;
+    }
+
+    #infos p
+    {   
+        font-size: 14px;
+    }
+
+    #stars, #stars2
+{
+    font-size: 14px;
+}
+
+#stars2
+{
+    margin-bottom: 3px;
+}
+
+.description_hebergement h2
+{ 
+    font-size: 16px;
+}
+
+.description_hebergement p
+{ 
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+section h1
+{ 
+    font-size: 22px;
+}
+
+.afficherplus
+{  
+    font-size: 18px;
+}
+
+.description_populaire
+{ 
+    padding-right: 30px;
+    padding-bottom: 6px;
+}
+
+.description_populaire h2
+{ 
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.description_populaire p
+{ 
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+#stars
+{
+  margin-bottom: 4px;
+}
+
+#activites
+{ 
+    height: 520px;
+}
+
+.description_activites h2
+{ 
+    font-size: 16px;
+}
+
+.description_activites
+{ 
+    height: 50px;
+}
+
+#bloc_vignettes_activites, #bloc_vignettes_activites_colonne2, #bloc_vignettes_activites_colonne4
+{ 
+    height: 450px;
+}
+
+.lien_vignette_2
+{ 
+    height: 230px;
+}
+
+#vignette_activite1
+{  
+    min-height: 450px;
+    background-size: 300%;
+    background-position-y: center;
+}
+
+#vignette_activite2
+{  
+    min-height: 230px;
+    margin-bottom: 70px;
+}   
+
+#vignette_activite3
+{  
+    min-height: 160px;
+}
+
+#vignette_activite4
+{  
+    height: 450px;
+}
+
+#vignette_activite5
+{  
+    min-height: 230px;
+    margin-bottom: 70px;
+}   
+
+#vignette_activite6
+{  
+    height: 160px; 
+}
+
+footer
+{ 
+    padding-top: 35px
+}
+
+footer h1
+{  
+   font-size: 17px;
+}
+
+footer li
+{  
+    font-size: 16px;
+}
+
+#a_propos
+{  
+    width: 33%;
+}
+
 }
 
 @media all and (min-width: 1024px) and (max-width: 1280px)
