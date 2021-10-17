@@ -1,6 +1,3 @@
-/* Définition des polices personnalisées */
-
-
 /* Règles communes */
 
 *, *::before, *::after {
@@ -221,7 +218,6 @@ header p i
 {  
     padding-left: 10px;
     padding-right: 20px; 
-
 }
 
 #filtres i
@@ -265,7 +261,6 @@ header p i
 {   
     border: 2px #f2f2f2 solid;
     border-radius: 20px 20px 20px 20px;
-
     text-align: center;
 }
 
@@ -379,6 +374,7 @@ nav ul
     position: relative;
     border: 6px white solid;
     border-radius: 30px;
+    box-shadow: 0px 0px 20px lightgray;
     min-width: 275px;
     width: 100%;
     height: 220px;
@@ -471,6 +467,8 @@ nav ul
 {  
     position: relative;
     border: 6px white solid;
+    box-shadow: 0px 0px 20px lightgray;
+                
     border-radius: 30px;
     width: 100%;
     height: 150px;
@@ -570,7 +568,6 @@ nav ul
                 -5px 5px 7px #f2f2f2;
     border-radius: 30px;
     width: 100%;
- 
     background-size: 50%;
     background: no-repeat center;
     margin-right: 30px;
@@ -670,24 +667,29 @@ footer li
     width: 30%;
 }
 
-/* Media Queries */
+/* MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES */
 
-@media all and (min-width: 1765px) 
-{  
+
+/* BIG SCREENS START BIG SCREENS START BIG SCREENS START */
+/* BIG SCREENS START BIG SCREENS START BIG SCREENS START */
+
+
+
+@media all and (min-width: 1765px) {  
    h1
     {
-        color: red;
+        color: ;
     
     }
 
-    #vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
+#vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
 {  
     min-width: 310px;
     width: 100%;
     height: 260px;
 } 
 
-    #vignette_populaire1, #vignette_populaire2, #vignette_populaire3
+#vignette_populaire1, #vignette_populaire2, #vignette_populaire3
 {  
     width: 100%;
     height: 200px;
@@ -927,11 +929,14 @@ footer li
 }
 }
 
+/* MED SCREENS START MED SCREENS START MED SCREENS START MED SCREENS START MED SCREENS START */
+
+
 @media all and (min-width: 1630px) and (max-width: 1765px)
 {  
    h1
     {
-        color: palegoldenrod;
+        color: ;palegoldenrod
     
     }
 
@@ -1042,6 +1047,11 @@ header p i
 #filtres a
 {  
     height: 60px;
+}
+
+#infos p
+{   
+    font-size: 20px;
 }
 
 nav
@@ -1168,56 +1178,60 @@ footer li
 }
 }
 
+/* SMALL SCREENS SMALL SCREENS SMALL SCREENS SMALL SCREENS SMALL SCREENS SMALL SCREENS SMALL SCREENS */
+/* SMALL SCREENS SMALL SCREENS SMALL SCREENS SMALL SCREENS SMALL SCREENS SMALL SCREENS SMALL SCREENS */
+
+
 
 @media all and (min-width: 1280px) and (max-width: 1630px)
 {  
    h1
     {
-    color: blue;
+        color: ; blue
     }
 
-    #vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
-    {  
-        min-width: 230px;
-        width: 100%;
-        height: 200px;
-    } 
+#vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
+{  
+    min-width: 230px;
+    width: 100%;
+    height: 200px;
+} 
 
-    #logomap
-    {   
-        height: 50px;
-        min-width: 50px;
-        font-size: 13px;
-    }
+#logomap
+{   
+    height: 50px;
+    min-width: 50px;
+    font-size: 13px;
+}
     
-    .champ
-    {   
-        width: 130%;
-        min-width: 190px;
-        height: 50px;
-        padding-left: 15px;
-        font-size: 18px;
-    }
+.champ
+{   
+    width: 130%;
+    min-width: 190px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 18px;
+}
 
-    .info
-    {   
-        font-size: 12px;
-        padding: 5px 9px 5px 9px;
-    }
+.info
+{   
+    font-size: 12px;
+    padding: 5px 9px 5px 9px;
+}
 
-    #infos p
-    {   
-        font-size: 16px;
-    }
+#infos p
+{   
+    font-size: 16px;
+}
 
-    #sinscrire
-    {   
-        position: absolute;
-        top: 0px;
-        right: 60px;
-    }
+#sinscrire
+{   
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
 
-    #stars, #stars2
+#stars, #stars2
 {
     font-size: 14px;
 }
@@ -1358,15 +1372,18 @@ footer li
 {  
     width: 33%;
 }
-
 }
+
+/* SMARTPHONES SMARTPHONES SMARTPHONES SMARTPHONES SMARTPHONES */
+/* SMARTPHONES SMARTPHONES SMARTPHONES SMARTPHONES SMARTPHONES */
+
 
 @media all and (min-width: 980px) and (max-width: 1280px)
 {  
-h1
-    {
-    color: green;
-    }
+        h1
+        {
+            color: ;greenyellow
+        } 
 
 header
 {  
@@ -1495,7 +1512,6 @@ header p i
 {  
     padding-left: 10px;
     padding-right: 10px; 
-
 }
 
 #filtres i
@@ -1511,11 +1527,11 @@ header p i
     width: 40px;
     margin-left: 0px;
 }
+
 #infos
 {  
     margin-top: 20px;
     margin-bottom: 30px;
-
 }
 
 nav
@@ -1549,26 +1565,25 @@ nav ul a:hover
     font-size: 12px;
 }
 
-     #vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
-     {  
-         position: relative;
-         border: 3px white solid;
-         border-radius: 20px;
-         min-width: 160px;
-        
-         height: 140px;
-         background-size: 50%;
-         margin-right: 20px;
-         margin-bottom: 30px;
-     } 
+#vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
+{  
+    position: relative;
+    border: 3px white solid;
+    border-radius: 20px;
+    min-width: 160px;
+    height: 140px;
+    background-size: 50%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+} 
 
-     #stars2
-     { 
-        font-size: 14px;
-        margin-bottom: 5px;
-    }
+#stars2
+{ 
+    font-size: 14px;
+    margin-bottom: 5px;
+}
 
-    #infos
+#infos
 {  
     margin-top: 10px;
     margin-bottom: 15px;
@@ -1577,15 +1592,14 @@ nav ul a:hover
     align-items: center;
 }
 
-    #infos I
+#infos I
 {   
     border: 2px #f2f2f2 solid;
     border-radius: 50px;
-
     text-align: center;
 }
 
-    .iconeinfo
+.iconeinfo
 {   
     font-size: 10px;
     padding: 5px 8px 5px 8px;
@@ -1625,7 +1639,6 @@ section h2
 
 #vignette_populaire1, #vignette_populaire2, #vignette_populaire3
 {  
-
     border: 3px white solid;
     border-radius: 20px;
     width: 100%;
@@ -1647,7 +1660,6 @@ section h1
 {
     padding-right: 20px;
     border-radius: 0px 15px 15px 0px;
-
 }
 
 .description_populaire p
@@ -1682,12 +1694,10 @@ section h1
 
 #activites
 {  
-
     height: 350px;
     margin-bottom: 50px;
     margin-left: 25px;
     margin-right: 25px;
-
 }
 
 #vignette_activite1
@@ -1735,18 +1745,21 @@ section h1
 footer
 {
     margin-top: 0px;
-    
 }
- }
+}
+
+/* SMARTPHONES SMARTPHONES  SMARTPHONES  SMARTPHONES  SMARTPHONES */
+/* SMARTPHONES SMARTPHONES  SMARTPHONES  SMARTPHONES  SMARTPHONES */
  
- @media all and (max-width: 980px)
+
+@media all and (max-width: 980px)
 {  
     h1
     {
-         color: turquoise;
+         color: ;turquoise
     }
 
-    header
+header
 {  
     margin-left: 35px;
     margin-right: 35px;
@@ -1765,7 +1778,6 @@ nav
     justify-content: stretch;
     text-align: center;
     width: 100%;
-    font-size: ;
 }
 
 nav a 
@@ -1780,7 +1792,6 @@ nav ul a:hover
     border-top: none;
     padding-left: 140px;
     padding-right: 140px;
-    
 }
 
 nav ul
@@ -1833,7 +1844,6 @@ nav li
     background-color: #f2f2f2;
     margin-top: 75px;
     align-items: center;
-
 }
 
 #recherche i 
@@ -1959,7 +1969,8 @@ nav li
 {  
     align-items: center;
     border-radius: 30px;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;
+}
 
 .filtre
 {  
@@ -1985,7 +1996,6 @@ nav li
 {  
     height: 140px;
     justify-content: start;
-
 }
 
 #infos
@@ -2046,7 +2056,6 @@ nav li
     margin-top: 12px;
     margin-left: 30px;
     margin-right: 30px;
-    
 }
 
 #vignette_hebergement1, #vignette_hebergement2, #vignette_hebergement3, #vignette_hebergement4, #vignette_hebergement5, #vignette_hebergement6
@@ -2135,7 +2144,6 @@ nav li
     margin-top: 12px;
     margin-left: 30px;
     margin-right: 30px;
-
 }
 
 #vignette_populaire1, #vignette_populaire2, #vignette_populaire3
@@ -2157,8 +2165,6 @@ nav li
     height: 101%;
     border-radius: 0px 30px 30px 0px;
     padding-bottom: none;
-
-
 }
 
 .description_populaire p
@@ -2185,7 +2191,6 @@ nav li
 
 #activites
 {  
-
     height: 100%;
     margin-top: 30px;
     margin-left: 20px;
@@ -2196,7 +2201,6 @@ nav li
 {  
     padding-bottom: 15px;
     font-size: 22px;
-
     width: 100%;
     margin-bottom: 16px;
     font-size: 57px;
@@ -2227,7 +2231,6 @@ nav li
 {  
     width: 100%;
     height: 100%;
-
     align-items: center;
 }
 
@@ -2353,5 +2356,4 @@ footer li
 {  
     width: 100%;
 }
-
 }
