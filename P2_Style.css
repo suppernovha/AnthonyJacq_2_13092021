@@ -338,6 +338,11 @@ nav ul
     margin-top: 30px;
 }
 
+#bloc_vignettes_hebergements a
+{  
+    height: 100%;
+}
+
 #vignette_hebergement1
 {
     
@@ -1745,7 +1750,7 @@ section h1
 footer
 {
     margin-top: 0px;
-}
+}à
 }
 
 /* SMARTPHONES SMARTPHONES  SMARTPHONES  SMARTPHONES  SMARTPHONES */
